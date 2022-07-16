@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MY NGO</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+}
+
+<style>
+    img {
+    vertical-align: middle;
+    border-style: outset;
+    
+}
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50" id="ho">
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top" >
+  <a class="navbar-brand" href="#"><img src="C:\Users\Admin\Desktop\NGO\ngo1.png" style="width: 50px;height: 50px"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#ho">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About Us </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#ca">Causes</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="#do">Donation</a>
+      </li> 
+       <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Pages
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#team">Team</a>
+        <a class="dropdown-item" href="#event">Events</a>
+      </div>
+    </li>   
+          <li class="nav-item">
+        <a class="nav-link" href="#">Contact Us</a>
+      </li> 
+    </ul>
+  </div>  
+</nav>
+
+<!----slider----->
+
+  <div id="demo" class="carousel slide" data-ride="carousel">
+     <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="C:\Users\Admin\Desktop\NGO\freedom.avif" alt="Cinque Terre" style="width: 100%;height: 600px">
+        <div class="carousel-caption">
+          <h3  class="text-center text-capitalize p-200px" style="font-family: Edwardian Script ITC;font-size: 100px;text-align: center;color:#D3D3D3 ">Give Freedom To The Children</h3>
+        </div> 
+      </div>
+      <div class="carousel-item">
+        <img src="C:\Users\Admin\Desktop\NGO\edu.jpg" alt="Chicago" style="width: 100%;height: 600px">
+        <div class="carousel-caption">
+           <h3  class="text-center text-capitalize p-200px" style="font-family: Algerian;font-size: 100px;text-align: center">Right To Education</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="C:\Users\Admin\Desktop\NGO\child.jpg" alt="New York" style="width: 100%;height: 600px">
+      </div>
+    </div>
+  
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+  <section style="background-color: #D3D3D3 " id="about">
+  
+<h1 class="ml3" style="padding:50px" >About Us</h1>
+<p>NGO’s vision is to be the primary support and platform for a civil 
+society represented by a global community of informed, empowered and 
+committed NGOs that fully participate with the UN  in decision-making
+and programs leading to a better world, a world of economic and social justice.</p>
+<script type="text/javascript">
+  // Wrap every letter in a span
+$('.ml3').each(function(){
+  $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+});
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml3 .letter',
+    opacity: [0,1],
+    easing: "easeInOutQuad",
+    duration: 2250,
+    delay: function(el, i) {
+      return 150 * (i+1)
+    }
+  }).add({
+    targets: '.ml3',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+</script>
+  <!--<h1 class="text-center text-capitalize p-5  font" >About Us</h1>-->
+  <hr class="width-25 ms-auto">
+ <div class="container-fluid">
+  <div class="row col-lg-12">
+    <div class="col-lg-6">
+      <img src="C:\Users\Admin\Desktop\NGO\lack.jpg" class="overlay" style="max-width:100%;height: auto ;padding-top: 4%;padding-left: 50px;position:relative; padding-bottom: 40px;">
+</div>
+<div class="col-lg-6">
+  <center><h1>OUR MISSION</h1></center>
+  <pre><h3>VISION</h3>
+NGO’s vision is to be the primary support and platform for a civil 
+society represented by a global community of informed, empowered and 
+committed NGOs that fully participate with the UN  in decision-making
+ and programs leading to a better world, a world of economic and social justice.<br/>
+<h3>MISSION</h3>
+Facilitate through various means the development of a dynamic and informed
+ world-wide NGO community able to influence policies and actions at all levels
+  of the United Nations.<br/>
+<h3>OBJECTIVES</h3>
+A. Improve NGOs accessibility and presence at all levels of the United Nations
+B. Enhance the effective engagement of cf6hyNGOs with the United Nations
+C. Strengthen the dialogue between the United Nations and Non-governmental organizations
+D. Engage NGOs to work together on issues of common interest
+E. Education / Capacity Development
+F. Work in partnership with UN civil society focal points
+G. Advocate on the Principles and Goals that NGOs and United Nations hare.</pre>
+<button>To Know More...</button>
+</div>
+</div>
+</div>
+</section>
+<!------------causes----------->
+
+<h1 class="ml3" style="padding:50px">Causes</h1>
+<script type="text/javascript">
+  // Wrap every letter in a span
+$('.ml3').each(function(){
+  $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+});
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml3 .letter',
+    opacity: [0,1],
+    easing: "easeInOutQuad",
+    duration: 2250,
+    delay: function(el, i) {
+      return 150 * (i+1)
+    }
+  }).add({
+    targets: '.ml3',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+</script>
+   <!--<h1 class="text-center text-capitalize p-5 " >Causes</h1>--> 
+<section id="ca">
+<div class="container-fluid">
+<div class="row" style=" display: flex;flex-wrap: unset;
+">
+  <div class="columns">
+    <div class="card">
+      <img src="bookconsultant.png"  style="width:100%;height: 320px">
+      <div class="container">
+        <h2>Lack of Assets</h2>
+        <p>Poverty is most commonly viewed through this lens – a lack of basic yet essential needs. This may include schools, hospitals, nutritious food and clean water. Other assets might include qualified nurses, child protection systems, and employment opportunities. A lack of ‘social assets’ occurs when families live in places that have lost a sense of community and mutual support.Being set apart reduces access to opportunity, and fewer chances to break the cycle of poverty.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="columns">
+    <div class="cards">
+      <img src="bookconsultant.png"  style="width:100%;height: 320px">
+      <div class="container">
+        <h2>Exclusion and Invisibility</h2>
+        <p>Poverty can lead to exclusion within society – and exclusion can also result in poverty. Poor children may not be able to afford the costs of education, while girls may not be encouraged to attend beyond a certain year.
+Both boys and girls from low-income families are at risk of being forced to enter the workforce as child labourers, and girls may be forced into early marriage by their relatives.Ethnic minority families may find it difficult to establish small businesses.</p>
+      </div>
+    </div>
+  </div>
+  <div class="columns">
+    <div class="cards">
+      <img src="bookconsultant.png"  style="width:100%;height: 320px">
+      <div class="container">
+        <h2>Power differentials</h2>
+        <p>Families living in poor communities often find it difficult to build and claim their power. The rights of children may be ignored; community decision-making may only be reserved for men. Power imbalances can appear within families (related to gender, age, or disability), and within communities (related to ethnicity, caste or class). It can also be witnessed between nations, with some countries having less power than others in today’s world order.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section><br>
+<!------------Donation---->
+ <h1 class="ml3" style="padding:50px" >Donation</h1>
+<script type="text/javascript">
+  // Wrap every letter in a span
+$('.ml3').each(function(){
+  $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+});
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml3 .letter',
+    opacity: [0,1],
+    easing: "easeInOutQuad",
+    duration: 2250,
+    delay: function(el, i) {
+      return 150 * (i+1)
+    }
+  }).add({
+    targets: '.ml3',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+</script>
+<section class="bg-success" style="height: auto ;padding-left: 110px;">
+  
+  <article class="py-5 text-center text-white">
+    <div>
+      <h3 class="display-4">How Could You Help</h3>
+      <p>Make A Donation Now! You May Change Lives Forever..</p>
+      <button class="btn btn-secondary">Donate Now</button>
+    </div>
+    <div class="container">
+    <div class="row">
+  <div class="com">
+    <img src="bookconsultant.png" style="width:330px; height:153px">
+    <h1>Make a Donation</h1>
+    <p></p>
+  </div>
+    <div class="com">
+    <img src="bookconsultant.png" style="width:330px; height:153px">
+    <h1>Food for the Poor</h1>
+    <p></p>
+  </div>
+  <div class="com">
+    <img src="bookconsultant.png" style="width:330px; height:153px">
+    <h2>Medical Health</h2>
+    <p></p>
+  </div>
+</div>
+ <div class="row">
+  <div class="com">
+    <img src="bookconsultant.png" style="width:330px; height:153px">
+    <h2>Help & Love</h2>
+    <p></p>
+  </div>
+  
+  <div class="com">
+    <img src="bookconsultant.png" style="width:330px; height:153px">
+    <h2>Volunteer</h2>
+    <p></p>
+  </div>
+  
+  <div class="com">
+    <img src="bookconsultant.png" style="width:330px; height:153px">
+    <h2>Give To The Needy</h2>
+    <p></p>
+  </div>
+</div>
+</div>
+</section>
+<!----------->
+<!-----Pages--->
+<Section id="team">
+  <h1 class="ml3" style="padding:50px;" >Our Experts</h1>
+<script type="text/javascript">
+  // Wrap every letter in a span
+$('.ml3').each(function(){
+  $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+});
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml3 .letter',
+    opacity: [0,1],
+    easing: "easeInOutQuad",
+    duration: 2250,
+    delay: function(el, i) {
+      return 150 * (i+1)
+    }
+  }).add({
+    targets: '.ml3',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+</script>
+<div class="container">
+<div class="row" style="padding-left: 70px;">
+  <div class="column">
+    <img src="bookconsultant.png" style="width:330px; height:153px">
+    <div class="card">  
+      <p>sgdhgkjk rytruyu</p>
+    </div> 
+  </div>
+  <div class="column">
+    <img src="bookconsultant.png" style="width:330px; height:153px">
+    <div class="card">  
+      <p>sgdhgkjk rytruyu</p>
+    </div>
+  </div>
+  <div class="column">
+    <img src="bookconsultant.png" style="width:330px; height:153px">
+    <div class="card">  
+      <p>sgdhgkjk rytruyu</p>
+    </div>
+  </div>
+</div>
+</div>
+<section id="event">
+<h1 class="ml3" style="padding:50px" >Events</h1>
+<script type="text/javascript">
+  // Wrap every letter in a span
+$('.ml3').each(function(){
+  $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+});
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml3 .letter',
+    opacity: [0,1],
+    easing: "easeInOutQuad",
+    duration: 2250,
+    delay: function(el, i) {
+      return 150 * (i+1)
+    }
+  }).add({
+    targets: '.ml3',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+</script>
+<div class="container-fluid">
+<img src="default.jpg" style="width: 100%;height: 424px;">
+<p>
+  <h3>Grass From Evening Behold Good First Step Heaven Created For</h3>
+She'd behold for sixth that give darkness female let together give doaminion spirit let from unto their bring from itself sea deep for darkness gathered after evening i they're own winged beast you made male bring she'd shall heaven. She'd Shet behold for sixth that give darkness female let together give dominion spirit le
+<h2>Event Description</h2>
+She'd behold for sixth that give darkness female let together give dominion spirit let from unto their bring from the itself. Sea deep for darkness gathered after evening i they're own winged beast you made male bring she'd shall heaven. She'd. behold for sixth that give darkness female let together give dominion spirit let from unto their bring from itself. Sea deep fdarkness gathered after evening
+She'd behold for sixth that give darkness female let together give dominion spirit let from unto their bring from itself deeps for darkness gathered after evening i they're own winged beast you made male bring shall heaven She'd. behold sixth that give darkness female let together give dominion
+</p>
+</div>
+<address class="text-center text-capitalize p-5" style="font-size: 20px">
+<i>Start Time<br>
+09:00 AM<br>
+Friday,<br>
+Finish Time<br>
+10:00 AM<br>
+Wednesday,<br>
+Address<br>
+Mahal Road,Jaipur<br></i>
+</address>
+
+</section>
+
+<!---Contact----->
+<section class="bg-primary">
+  <article class="py-5 text-center text-white">
+    <div>
+      <h1 class="ml3" style="padding:50px" >Contact Us</h1>
+      sidebar();
+<script type="text/javascript">
+  // Wrap every letter in a span
+$('.ml3').each(function(){
+  $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+});
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml3 .letter',
+    opacity: [0,1],
+    easing: "easeInOutQuad",
+    duration: 2250,
+    delay: function(el, i) {
+      return 150 * (i+1)
+    }
+  }).add({
+    targets: '.ml3',
+    opacity: 0,
+    duration: 500,
+    easing: "easeOutExpo",
+    delay: 500
+  });
+</script>
+      <h1>9586234781</h1>
+      <p>If you want to donate call us now!</p>
+      <button class="btn btn-secondary">Contact Now</button>
+ 
+
+    </div>
+  </article>
+  </section>
+  <!---Want to join--->
+<section class="bg-danger">
+   <article class="py-5 text-center text-white">
+  <div>
+    <h3 class="display-4 text-white">Want To Join</h3>
+    <p>Be a part of our NGO</p>
+    <button class="btn btn-warning" data-toggle="modal" data-target="#myModal">Join Now</button>
+     </div>
+      <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title" style="color: #000">Sign Up</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+           <form action="/action_page.php">
+  <div class="form-group">
+    <label for="email" style="color: #000">Email address:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="form-group">
+    <label for="pwd" style="color: #000">Password:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+  <div class="form-group form-check">
+    <label class="form-check-label" style="color: #000">
+      <input class="form-check-input" type="checkbox" > Remember me
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary" style="color: #000">Submit</button>
+</form> 
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+  
+    </article>
+</section>
+
+</div>
+
+</body>
+</html>
